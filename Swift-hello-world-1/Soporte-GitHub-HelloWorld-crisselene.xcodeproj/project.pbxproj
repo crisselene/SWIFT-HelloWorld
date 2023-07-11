@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADEF88832A5C453A00AFC573 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF88822A5C453A00AFC573 /* AppDelegate.swift */; };
+		ADEF88852A5C453A00AFC573 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF88842A5C453A00AFC573 /* SceneDelegate.swift */; };
+		ADEF88872A5C453A00AFC573 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF88862A5C453A00AFC573 /* ViewController.swift */; };
+		ADEF888A2A5C453A00AFC573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEF88882A5C453A00AFC573 /* Main.storyboard */; };
+		ADEF888C2A5C453C00AFC573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADEF888B2A5C453C00AFC573 /* Assets.xcassets */; };
+		ADEF888F2A5C453C00AFC573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEF888D2A5C453C00AFC573 /* LaunchScreen.storyboard */; };
+		ADEF889A2A5C453C00AFC573 /* Soporte_GitHub_HelloWorld_crisseleneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF88992A5C453C00AFC573 /* Soporte_GitHub_HelloWorld_crisseleneTests.swift */; };
+		ADEF88A42A5C453C00AFC573 /* Soporte_GitHub_HelloWorld_crisseleneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF88A32A5C453C00AFC573 /* Soporte_GitHub_HelloWorld_crisseleneUITests.swift */; };
+		ADEF88A62A5C453C00AFC573 /* Soporte_GitHub_HelloWorld_crisseleneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF88A52A5C453C00AFC573 /* Soporte_GitHub_HelloWorld_crisseleneUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADEF88962A5C453C00AFC573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADEF88772A5C453A00AFC573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADEF887E2A5C453A00AFC573;
+			remoteInfo = "Soporte-GitHub-HelloWorld-crisselene";
+		};
+		ADEF88A02A5C453C00AFC573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADEF88772A5C453A00AFC573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADEF887E2A5C453A00AFC573;
+			remoteInfo = "Soporte-GitHub-HelloWorld-crisselene";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADEF887F2A5C453A00AFC573 /* Soporte-GitHub-HelloWorld-crisselene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Soporte-GitHub-HelloWorld-crisselene.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEF88822A5C453A00AFC573 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADEF88842A5C453A00AFC573 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ADEF88862A5C453A00AFC573 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADEF88892A5C453A00AFC573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADEF888B2A5C453C00AFC573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADEF888E2A5C453C00AFC573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADEF88902A5C453C00AFC573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADEF88952A5C453C00AFC573 /* Soporte-GitHub-HelloWorld-crisseleneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soporte-GitHub-HelloWorld-crisseleneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEF88992A5C453C00AFC573 /* Soporte_GitHub_HelloWorld_crisseleneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soporte_GitHub_HelloWorld_crisseleneTests.swift; sourceTree = "<group>"; };
+		ADEF889F2A5C453C00AFC573 /* Soporte-GitHub-HelloWorld-crisseleneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soporte-GitHub-HelloWorld-crisseleneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEF88A32A5C453C00AFC573 /* Soporte_GitHub_HelloWorld_crisseleneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soporte_GitHub_HelloWorld_crisseleneUITests.swift; sourceTree = "<group>"; };
+		ADEF88A52A5C453C00AFC573 /* Soporte_GitHub_HelloWorld_crisseleneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soporte_GitHub_HelloWorld_crisseleneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADEF887C2A5C453A00AFC573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEF88922A5C453C00AFC573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEF889C2A5C453C00AFC573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADEF88762A5C453A00AFC573 = {
+			isa = PBXGroup;
+			children = (
+				ADEF88812A5C453A00AFC573 /* Soporte-GitHub-HelloWorld-crisselene */,
+				ADEF88982A5C453C00AFC573 /* Soporte-GitHub-HelloWorld-crisseleneTests */,
+				ADEF88A22A5C453C00AFC573 /* Soporte-GitHub-HelloWorld-crisseleneUITests */,
+				ADEF88802A5C453A00AFC573 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADEF88802A5C453A00AFC573 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADEF887F2A5C453A00AFC573 /* Soporte-GitHub-HelloWorld-crisselene.app */,
+				ADEF88952A5C453C00AFC573 /* Soporte-GitHub-HelloWorld-crisseleneTests.xctest */,
+				ADEF889F2A5C453C00AFC573 /* Soporte-GitHub-HelloWorld-crisseleneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADEF88812A5C453A00AFC573 /* Soporte-GitHub-HelloWorld-crisselene */ = {
+			isa = PBXGroup;
+			children = (
+				ADEF88822A5C453A00AFC573 /* AppDelegate.swift */,
+				ADEF88842A5C453A00AFC573 /* SceneDelegate.swift */,
+				ADEF88862A5C453A00AFC573 /* ViewController.swift */,
+				ADEF88882A5C453A00AFC573 /* Main.storyboard */,
+				ADEF888B2A5C453C00AFC573 /* Assets.xcassets */,
+				ADEF888D2A5C453C00AFC573 /* LaunchScreen.storyboard */,
+				ADEF88902A5C453C00AFC573 /* Info.plist */,
+			);
+			path = "Soporte-GitHub-HelloWorld-crisselene";
+			sourceTree = "<group>";
+		};
+		ADEF88982A5C453C00AFC573 /* Soporte-GitHub-HelloWorld-crisseleneTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADEF88992A5C453C00AFC573 /* Soporte_GitHub_HelloWorld_crisseleneTests.swift */,
+			);
+			path = "Soporte-GitHub-HelloWorld-crisseleneTests";
+			sourceTree = "<group>";
+		};
+		ADEF88A22A5C453C00AFC573 /* Soporte-GitHub-HelloWorld-crisseleneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADEF88A32A5C453C00AFC573 /* Soporte_GitHub_HelloWorld_crisseleneUITests.swift */,
+				ADEF88A52A5C453C00AFC573 /* Soporte_GitHub_HelloWorld_crisseleneUITestsLaunchTests.swift */,
+			);
+			path = "Soporte-GitHub-HelloWorld-crisseleneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADEF887E2A5C453A00AFC573 /* Soporte-GitHub-HelloWorld-crisselene */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEF88A92A5C453C00AFC573 /* Build configuration list for PBXNativeTarget "Soporte-GitHub-HelloWorld-crisselene" */;
+			buildPhases = (
+				ADEF887B2A5C453A00AFC573 /* Sources */,
+				ADEF887C2A5C453A00AFC573 /* Frameworks */,
+				ADEF887D2A5C453A00AFC573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Soporte-GitHub-HelloWorld-crisselene";
+			productName = "Soporte-GitHub-HelloWorld-crisselene";
+			productReference = ADEF887F2A5C453A00AFC573 /* Soporte-GitHub-HelloWorld-crisselene.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADEF88942A5C453C00AFC573 /* Soporte-GitHub-HelloWorld-crisseleneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEF88AC2A5C453C00AFC573 /* Build configuration list for PBXNativeTarget "Soporte-GitHub-HelloWorld-crisseleneTests" */;
+			buildPhases = (
+				ADEF88912A5C453C00AFC573 /* Sources */,
+				ADEF88922A5C453C00AFC573 /* Frameworks */,
+				ADEF88932A5C453C00AFC573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADEF88972A5C453C00AFC573 /* PBXTargetDependency */,
+			);
+			name = "Soporte-GitHub-HelloWorld-crisseleneTests";
+			productName = "Soporte-GitHub-HelloWorld-crisseleneTests";
+			productReference = ADEF88952A5C453C00AFC573 /* Soporte-GitHub-HelloWorld-crisseleneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADEF889E2A5C453C00AFC573 /* Soporte-GitHub-HelloWorld-crisseleneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEF88AF2A5C453C00AFC573 /* Build configuration list for PBXNativeTarget "Soporte-GitHub-HelloWorld-crisseleneUITests" */;
+			buildPhases = (
+				ADEF889B2A5C453C00AFC573 /* Sources */,
+				ADEF889C2A5C453C00AFC573 /* Frameworks */,
+				ADEF889D2A5C453C00AFC573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADEF88A12A5C453C00AFC573 /* PBXTargetDependency */,
+			);
+			name = "Soporte-GitHub-HelloWorld-crisseleneUITests";
+			productName = "Soporte-GitHub-HelloWorld-crisseleneUITests";
+			productReference = ADEF889F2A5C453C00AFC573 /* Soporte-GitHub-HelloWorld-crisseleneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADEF88772A5C453A00AFC573 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					ADEF887E2A5C453A00AFC573 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					ADEF88942A5C453C00AFC573 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = ADEF887E2A5C453A00AFC573;
+					};
+					ADEF889E2A5C453C00AFC573 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = ADEF887E2A5C453A00AFC573;
+					};
+				};
+			};
+			buildConfigurationList = ADEF887A2A5C453A00AFC573 /* Build configuration list for PBXProject "Soporte-GitHub-HelloWorld-crisselene" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADEF88762A5C453A00AFC573;
+			productRefGroup = ADEF88802A5C453A00AFC573 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADEF887E2A5C453A00AFC573 /* Soporte-GitHub-HelloWorld-crisselene */,
+				ADEF88942A5C453C00AFC573 /* Soporte-GitHub-HelloWorld-crisseleneTests */,
+				ADEF889E2A5C453C00AFC573 /* Soporte-GitHub-HelloWorld-crisseleneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADEF887D2A5C453A00AFC573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEF888F2A5C453C00AFC573 /* LaunchScreen.storyboard in Resources */,
+				ADEF888C2A5C453C00AFC573 /* Assets.xcassets in Resources */,
+				ADEF888A2A5C453A00AFC573 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEF88932A5C453C00AFC573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEF889D2A5C453C00AFC573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADEF887B2A5C453A00AFC573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEF88872A5C453A00AFC573 /* ViewController.swift in Sources */,
+				ADEF88832A5C453A00AFC573 /* AppDelegate.swift in Sources */,
+				ADEF88852A5C453A00AFC573 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEF88912A5C453C00AFC573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEF889A2A5C453C00AFC573 /* Soporte_GitHub_HelloWorld_crisseleneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEF889B2A5C453C00AFC573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEF88A42A5C453C00AFC573 /* Soporte_GitHub_HelloWorld_crisseleneUITests.swift in Sources */,
+				ADEF88A62A5C453C00AFC573 /* Soporte_GitHub_HelloWorld_crisseleneUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADEF88972A5C453C00AFC573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADEF887E2A5C453A00AFC573 /* Soporte-GitHub-HelloWorld-crisselene */;
+			targetProxy = ADEF88962A5C453C00AFC573 /* PBXContainerItemProxy */;
+		};
+		ADEF88A12A5C453C00AFC573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADEF887E2A5C453A00AFC573 /* Soporte-GitHub-HelloWorld-crisselene */;
+			targetProxy = ADEF88A02A5C453C00AFC573 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADEF88882A5C453A00AFC573 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADEF88892A5C453A00AFC573 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADEF888D2A5C453C00AFC573 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADEF888E2A5C453C00AFC573 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADEF88A72A5C453C00AFC573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADEF88A82A5C453C00AFC573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADEF88AA2A5C453C00AFC573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Soporte-GitHub-HelloWorld-crisselene/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crisselene.Soporte-GitHub-HelloWorld-crisselene";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADEF88AB2A5C453C00AFC573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Soporte-GitHub-HelloWorld-crisselene/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crisselene.Soporte-GitHub-HelloWorld-crisselene";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADEF88AD2A5C453C00AFC573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crisselene.Soporte-GitHub-HelloWorld-crisseleneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soporte-GitHub-HelloWorld-crisselene.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Soporte-GitHub-HelloWorld-crisselene";
+			};
+			name = Debug;
+		};
+		ADEF88AE2A5C453C00AFC573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crisselene.Soporte-GitHub-HelloWorld-crisseleneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soporte-GitHub-HelloWorld-crisselene.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Soporte-GitHub-HelloWorld-crisselene";
+			};
+			name = Release;
+		};
+		ADEF88B02A5C453C00AFC573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crisselene.Soporte-GitHub-HelloWorld-crisseleneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Soporte-GitHub-HelloWorld-crisselene";
+			};
+			name = Debug;
+		};
+		ADEF88B12A5C453C00AFC573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crisselene.Soporte-GitHub-HelloWorld-crisseleneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Soporte-GitHub-HelloWorld-crisselene";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADEF887A2A5C453A00AFC573 /* Build configuration list for PBXProject "Soporte-GitHub-HelloWorld-crisselene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEF88A72A5C453C00AFC573 /* Debug */,
+				ADEF88A82A5C453C00AFC573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADEF88A92A5C453C00AFC573 /* Build configuration list for PBXNativeTarget "Soporte-GitHub-HelloWorld-crisselene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEF88AA2A5C453C00AFC573 /* Debug */,
+				ADEF88AB2A5C453C00AFC573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADEF88AC2A5C453C00AFC573 /* Build configuration list for PBXNativeTarget "Soporte-GitHub-HelloWorld-crisseleneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEF88AD2A5C453C00AFC573 /* Debug */,
+				ADEF88AE2A5C453C00AFC573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADEF88AF2A5C453C00AFC573 /* Build configuration list for PBXNativeTarget "Soporte-GitHub-HelloWorld-crisseleneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEF88B02A5C453C00AFC573 /* Debug */,
+				ADEF88B12A5C453C00AFC573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADEF88772A5C453A00AFC573 /* Project object */;
+}
